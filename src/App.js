@@ -7,6 +7,7 @@ import { Sidebar } from './Components/Layout/Sidebar';
 import { Home } from './Components/Pages/Home';
 import { InPay } from './Components/Pages/InPay';
 import { Cricket } from './Components/Pages/Cricket';
+import { Footer } from './Components/Layout/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               </Routes>
             
             </div>
+            <Footer></Footer>
           </div>
         </div>
       </div>

@@ -52,9 +52,6 @@ export const Home = () => {
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/mines_baner.png" className="img-responsive" />
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/15a51a2ae2895872ae2b600fa6fe8d7f8d32c9814766b66ddea2b288d04ba89c.avif" className="img-responsive d-none-mobile" />
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/MINES.avif" className="img-responsive d-none-mobile" />
-                                                <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/coin_toss_banner.avif" className="img-responsive d-none-mobile" />
-                                                <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/double_wheel_banner.avif" className="img-responsive d-none-mobile" />
-                                                <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/dream-catcher-banner.jpeg" className="img-responsive d-none-mobile" />
                                             </div>
                                             <div className="carousel-item">
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/aviator_gaming_banner3.png" className="img-responsive" />
@@ -64,9 +61,6 @@ export const Home = () => {
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/mines_baner.png" className="img-responsive" />
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/15a51a2ae2895872ae2b600fa6fe8d7f8d32c9814766b66ddea2b288d04ba89c.avif" className="img-responsive d-none-mobile" />
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/MINES.avif" className="img-responsive d-none-mobile" />
-                                                <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/coin_toss_banner.avif" className="img-responsive d-none-mobile" />
-                                                <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/double_wheel_banner.avif" className="img-responsive d-none-mobile" />
-                                                <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/dream-catcher-banner.jpeg" className="img-responsive d-none-mobile" />
                                             </div>
                                             <div className="carousel-item">
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/aviator_gaming_banner3.png" className="img-responsive" />
@@ -76,9 +70,6 @@ export const Home = () => {
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/mines_baner.png" className="img-responsive" />
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/15a51a2ae2895872ae2b600fa6fe8d7f8d32c9814766b66ddea2b288d04ba89c.avif" className="img-responsive d-none-mobile" />
                                                 <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/MINES.avif" className="img-responsive d-none-mobile" />
-                                                <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/coin_toss_banner.avif" className="img-responsive d-none-mobile" />
-                                                <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/double_wheel_banner.avif" className="img-responsive d-none-mobile" />
-                                                <img src="https://bx-s3-dev-001.s3.ap-southeast-1.amazonaws.com/st8-gaming/dream-catcher-banner.jpeg" className="img-responsive d-none-mobile" />
                                             </div>
                                         </div>
                                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -678,8 +669,147 @@ export const Home = () => {
                     </div>
                 </div>
                 </div>
-                <div className="col-sm-3 col-md-3">
+                <div className="col-sm-3 col-md-3 p-0">
+                    <div className='card card-custom mb-3'>
+                        <div className='card-header'>Top Winner Players</div>
+                        <div className='card-body p-0'>
+                            <div className='row m-0'>
+                                <div className='col-md-12 topWinner p-0'>
+                                    <div className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                                        <div className="carousel-inner">
+                                            <div className="carousel-item active">
+                                                <div className='row topWinnerSub'>
+                                                    <div className='col-md-12 text-start'>
+                                                        <img src='assets/img/img2.png' className='me-2 pull-left' style={{width:'30px'}} />
+                                                        <p className='text-white font-bold mt-1 mb-0 pull-left'>bh**</p>
+                                                        <p className='mb-0 pull-right text-white mt-1'>06/05/2025</p>
+                                                    </div>
+                                                    <div className='col-md-12'>
+                                                        <p className='text-white mt-1 mb-0 pull-left'>Winning Amount:</p>
+                                                        <p className='mb-0 pull-right text-success font-bold text-white mt-1'>₹156487.00</p>
+                                                    </div>
+                                                </div>
+                                                <div className='row topWinnerSub'>
+                                                    <div className='col-md-12 text-start'>
+                                                        <img src='assets/img/img3.png' className='me-2 pull-left' style={{width:'30px'}} />
+                                                        <p className='text-white font-bold mt-1 mb-0 pull-left'>ka**</p>
+                                                        <p className='mb-0 pull-right text-white mt-1'>06/05/2025</p>
+                                                    </div>
+                                                    <div className='col-md-12'>
+                                                        <p className='text-white mt-1 mb-0 pull-left'>Winning Amount:</p>
+                                                        <p className='mb-0 pull-right text-success font-bold text-white mt-1'>₹156487.00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="carousel-item">
+                                                <div className='row topWinnerSub'>
+                                                    <div className='col-md-12 text-start'>
+                                                        <img src='assets/img/img2.png' className='me-2 pull-left' style={{width:'30px'}} />
+                                                        <p className='text-white font-bold mt-1 mb-0 pull-left'>aj**</p>
+                                                        <p className='mb-0 pull-right text-white mt-1'>06/05/2025</p>
+                                                    </div>
+                                                    <div className='col-md-12'>
+                                                        <p className='text-white mt-1 mb-0 pull-left'>Winning Amount:</p>
+                                                        <p className='mb-0 pull-right text-success font-bold text-white mt-1'>₹156487.00</p>
+                                                    </div>
+                                                </div>
+                                                <div className='row topWinnerSub'>
+                                                    <div className='col-md-12 text-start'>
+                                                        <img src='assets/img/img3.png' className='me-2 pull-left' style={{width:'30px'}} />
+                                                        <p className='text-white font-bold mt-1 mb-0 pull-left'>pa**</p>
+                                                        <p className='mb-0 pull-right text-white mt-1'>06/05/2025</p>
+                                                    </div>
+                                                    <div className='col-md-12'>
+                                                        <p className='text-white mt-1 mb-0 pull-left'>Winning Amount:</p>
+                                                        <p className='mb-0 pull-right text-success font-bold text-white mt-1'>₹156487.00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div className='card card-custom'>
+                        <div className='card-header'>Open Bets</div>
+                        <div className='card-body p-2'>
+                            <div className='row'>
+                                <div className='col-md-12'>
+                                    <select className='form-control'>
+                                        <option>Select..</option>
+                                        <option selected="selected">ALL</option>
+                                    </select>
+                                </div>
+                                <div className='col-md-12 tabSlider tabSliderRight mt-1'>    
+                                    <nav>
+                                        <div className="nav nav-tabs mb-1" id="nav-tab2" role="tablist">
+                                            <button className="nav-link active" id="nav-home-tab2" data-bs-toggle="tab" data-bs-target="#nav-home2" type="button" role="tab" aria-controls="nav-home2" aria-selected="true">Matched</button>
+                                            <button className="nav-link" id="nav-profile-tab2" data-bs-toggle="tab" data-bs-target="#nav-profile2" type="button" role="tab" aria-controls="nav-profile2" aria-selected="false">Unmatch</button>
+                                            <button className="nav-link" id="nav-contact-tab2" data-bs-toggle="tab" data-bs-target="#nav-contact2" type="button" role="tab" aria-controls="nav-contact2" aria-selected="false">Fancy</button>
+                                        </div>
+                                    </nav>
+                                    <div className='card-body p-1'>
+                                        <div className="tab-content" id="nav-tabContent">
+                                            <div className="tab-pane fade active show" id="nav-home2" role="tabpanel" aria-labelledby="nav-home-tab2">
+                                                <div className="row">
+                                                    <div className='col-md-12'>
+                                                        <table className='table table-sm mb-0' style={{borderTop:'1px solid #ebedf2'}}>
+                                                            <tr>
+                                                                <td className='text-start'>Lay/Back (Bet Against)</td>
+                                                                <td className='text-start'>Odds</td>
+                                                                <td className='text-start'>Stake</td>
+                                                                <td className='text-start'>PL</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colSpan={4}><p style={{padding: '30px 0px'}}>No Data Found</p></td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="tab-pane fade" id="nav-profile2" role="tabpanel" aria-labelledby="nav-profile-tab2">
+                                            <div className="row">
+                                                    <div className='col-md-12'>
+                                                        <table className='table table-sm mb-0' style={{borderTop:'1px solid #ebedf2'}}>
+                                                            <tr>
+                                                                <td className='text-start'>Lay/Back (Bet Against)</td>
+                                                                <td className='text-start'>Odds</td>
+                                                                <td className='text-start'>Stake</td>
+                                                                <td className='text-start'>PL</td>
+                                                                <td className='text-start'>Action</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colSpan={5}><p style={{padding: '30px 0px'}}>No Data Found</p></td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="tab-pane fade" id="nav-contact2" role="tabpanel" aria-labelledby="nav-contact-tab2">
+                                            <div className="row">
+                                                    <div className='col-md-12'>
+                                                        <table className='table table-sm mb-0' style={{borderTop:'1px solid #ebedf2'}}>
+                                                            <tr>
+                                                                <td className='text-start'>Lay/Back (Bet Against)</td>
+                                                                <td className='text-start'>Odds</td>
+                                                                <td className='text-start'>Stake</td>
+                                                                <td className='text-start'>PL</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colSpan={4}><p style={{padding: '30px 0px'}}>No Data Found</p></td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

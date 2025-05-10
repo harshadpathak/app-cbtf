@@ -1,8 +1,11 @@
 ::-webkit-scrollbar {
 	display: none;
 }
+.btn:focus, .btn:hover{
+	opacity: 1 !important;
+}
 body{
-	font-family: "Roboto", sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
 	font-size: 13px;
@@ -14,6 +17,9 @@ h1, h2, h3, h4, h5, h6, p, td
 	font-family: "Roboto", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
+}
+.position-relative{
+	position: relative;
 }
 .logo-header[data-background-color=dark2],
 .navbar-header[data-background-color=dark2]{
@@ -266,13 +272,29 @@ h1, h2, h3, h4, h5, h6, p, td
 	color: rgb(255 0 0) !important;
 	border-bottom: 3px solid tomato !important;
 }
-
+.form-control{
+	border-color: rgb(149 149 149);
+    border-width: 1px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+.card.card-custom{
+	box-shadow: unset !important;
+}
+.card-custom .card-header{
+	background: #000 !important;
+	border-radius: 5px 5px 0px 0px !important;
+	color: #FFF;
+	text-align: left;
+	padding: 0.25rem 1rem !important;
+	font-size: 16px;
+	border-bottom: unset !important;
+}
 #carouselExampleIndicators img{
 	height: 180px;
-	width: 100%;
 	max-width: 180px;
 	border-radius: 5px;
-	width: 10%;
+	width: 14.28%;
 	float: left;
 	padding: 2px;
 }
@@ -546,6 +568,71 @@ h1, h2, h3, h4, h5, h6, p, td
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu{
 	right: 10px !important;
+}
+.fs-20{
+	font-size: 20px;
+}
+.footer{
+    width: calc(100% - 100px);
+	right: 0px;
+	background-color: #000;
+	color: #FFF;
+	padding: 0px 15px;
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+.footer .container-fluid{
+	display: block;
+}
+.footer-sub{
+	border-bottom: 2px dashed #FFF;
+	padding: 15px 0px;
+}
+.footer-sub:last-child{
+	border-bottom: unset
+}
+.footer-sub ul{
+	padding: 0px;
+	margin: auto;
+	display: inline-block;
+}
+.footer-sub ul li{
+	float: left;
+	margin-left: 30px;
+}
+.footer-sub ul li:first-child{
+	list-style: none;
+}
+.footer-sub ul li a{
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline !important;
+	color: #FFF;
+}
+.tabSliderRight .nav-tabs .nav-link.active{
+	color: rgb(109 8 29) !important;
+	border-bottom: 2px solid rgb(109 8 29) !important;
+}
+.tabSliderRight .table-sm.table th,
+.tabSliderRight .table-sm.table td,
+.tabSliderRight .table-sm.table td p{
+	font-size: 13px !important;
+	color: #243a48;
+}
+
+.topWinner .carousel-item{
+	padding: 0px 15px !important;
+}
+.topWinner{
+	background: linear-gradient(to right, rgb(65, 41, 90), rgb(47, 7, 67));
+	border-radius: 0px 0px 5px 5px;
+}
+.topWinnerSub{
+	border: 1px dashed #FFF;
+	border-width: 1px 1px 0px 1px;
+	padding: 10px 0px 5px 0px;
+}
+.topWinnerSub:last-child{
+	border-width: 1px 1px 1px 1px;
 }
 
 @media screen and (min-width: 991px) {
